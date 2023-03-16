@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(43, 40, 40);
+    color: white;
+}
+
+.row{
+    height: 80vh;
+}
+
+a{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.6rem 1.4rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 300ms;
+}
+
+a:hover{
+    color: lightgreen;
+    transform: scale(1.1);
+}
+
+.al-button{
+    background-color: brown;
+    padding: 0.4rem 1.1rem;
+    border-radius: 15px;
+    transition: transform 300ms;
+}
+
+.al-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+input[type="text"]{
+    width: 100%;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 0.2rem 0.2rem;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.8;
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+select{
+    width: 30%;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.3rem;
+}
+
+@media screen and (min-width: 768px){
+    
+    input[type="text"]{
+        width: 60%;
+    }
+
+    select{
+        width: 20%;
+    }
+}
