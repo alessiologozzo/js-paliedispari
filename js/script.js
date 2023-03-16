@@ -1,10 +1,10 @@
 let submit;
 
-if (location.pathname == "/pages/palindroma.html") {
+if (document.body.id == "palindrome") {
     submit = document.getElementById("submit-string");
     submit.addEventListener("click", checkPalindrome);
 }
-else if (location.pathname == "/pages/pariDispari.html") {
+else if (document.body.id == "even-odd") {
     submit = document.getElementById("submit-number");
     submit.addEventListener("click", evenOddGame);
 }
